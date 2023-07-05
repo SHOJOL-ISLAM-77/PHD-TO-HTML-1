@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./img/container-bgc.png);
+    background-repeat: no-repeat;
+    background-position: static;
+    background-size: cover;
+    height:800px;
+}
+.navbar{
+    height: 200px;
+    background-image: url(./img/container-bgc-saddow.png);
+}
+
+.logo{
+    padding-left:200px;
+}
+.nav-menu{
+    padding-right:200px;
+}
+.nav-menu a{
+    padding: 50px;
+}
+.nav-menu a li{
+    display: inline;
+    color: aliceblue;
+    font-size: 30px;
+}
+.nav-menu a li:hover{
+    border-bottom: solid #fff 3px;
+}
+.navbar__description{
+    padding: 70px;
+    color: #fff;
+}
+.navbar__description h1{
+    font-size: 90px;
+}
+.navbar__description button{
+    background-color: #f64b3c;
+    padding: 20px 120px;
+    margin: 50px 0;
+    border-radius: 30px;
+}
+.our-chef{
+    height: 800px;
+    padding: 100px;
+    background-color:#f6eedf ;
+    background-image: url(./img/stickers.png);
+    background-repeat: no-repeat;
+    background-position: static;
+    background-size: cover;
+    color: #f64b3c;
+}
+.chefs{
+    display: flex;
+    justify-content: space-around;
+}
+.chef{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.chef h1{
+    font-size: 70px;
+}
+.food{
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f64b3c;
+    color: #ebe9e9;
+}
+.food-description h1{
+    font-size: 70px;
+}
+.food-description h2{
+    padding: 30px 0;
+}
+.food-btn{
+    padding: 15px 70px;
+    margin: 50px 0;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: large;
+    color: #f64b3c;
+}
+.food-1{
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#f6eedf ;
+    background-image: url(./img/stickers.png);
+    background-repeat: no-repeat;
+    background-position: static;
+    background-size: cover;
+    color: #f64b3c;
+}
+.food-1-description h1{
+    font-size: 70px;
+}
+.food-1-description h2{
+    padding: 30px 0;
+}
+.food-1-btn{
+    padding: 15px 70px;
+    margin: 50px 0;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: large;
+    color: #ebe9e9;
+    background-color: #f64b3c;
+}
+
+
+.statistics{
+    height: 800px;
+    background-color: #f64b3c;
+}
+
+.circle-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.circle{
+    border: 5px solid #ffffff;
+    color:#fff;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.circle h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.div h1{
+    font-size: 70px;
+    padding: 50px;
+    color: #fff;
+}
+.div h2{
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+}
+.packages{
+    height: 800px;
+    text-align: center;
+    background-color:#f6eedf ;
+    background-image: url(./img/stickers.png);
+    background-repeat: no-repeat;
+    background-position: static;
+    background-size: cover;
+    color: #f64b3c;
+}
+.package-container{
+    display: flex;
+    justify-content: space-around;
+}
+.package{
+    height: 450px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+#h1{
+    font-size: 70px;
+}
+.package button{
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: large;
+    color: #ebe9e9;
+    background-color: #f64b3c;
+    width: 200px;
+}
+.barry{
+    height: 800px;
+    background-image: url(./img/bgc-img.png);
+    background-position:static ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.loging{
+    height: 800px;
+    text-align: center;
+    background-color:#f6eedf ;
+    background-image: url(./img/stickers.png);
+    background-repeat: no-repeat;
+    background-position: static;
+    background-size: cover;
+    color: #f64b3c;
+    display: flex;
+    align-items: center;
+}
+.button input{
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button button{
+    margin-left: -20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f64b3c;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: black;
+    height: 770px;
+    color: #fff;
+}
+.links li{
+    display: inline;
+    padding: 20px;
+}
+.links li a i{
+    font-size: 50px;
+    padding: 5px;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
